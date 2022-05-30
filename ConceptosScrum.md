@@ -49,14 +49,28 @@ Repositorio de la Materia Programación ISPC 2022
  Es un elemento para visualizar el trabajo a realizar durante cada Sprint y esta gestionado por el equipo de desarrollo, el proposito es mantener la transparencia dentro del desarrollo, actualizandolo durante la iteracion especialmente a atraves de los daily Scrums. Permite visualizar en cada Sprint aquellos elementos que todavia no se han desarrollado, los que si y quienes estan trabajando en los mismo.
  Este artefacto **permite entender cual es la evolucion del trabajo durante el Sprin, asi como hacer un analisis de riesgos**
  
- **Incremento**: Es el resultado del Sprint, la suma de todas las tareas, casos de uso, historia de usuarios y cualquier elemento que se haya desarrollado durante el Sprint y que sera puesto a disposicion del usuario final en forma de software.
+ **Incremento del producto**: Es el resultado del Sprint, la suma de todas las tareas, casos de uso, historia de usuarios y cualquier elemento que se haya desarrollado durante el Sprint y que sera puesto a disposicion del usuario final en forma de software.
  
 
 
 # Ceremonias de Scrum: 
 
 Generan el marco para que los equipos de desarrollo trabajen de forma organizada. 
-Las cuatro ceremonias de Scrum son:
+Las cinco ceremonias de Scrum son:
+
+  **Sprint**
+   
+Objetivo: al final del Sprint, el objetivo es dar al cliente un incremento del producto o entregable. 
+
+Cuándo se realiza: El Sprint engloba el resto de eventos, es decir, la planificación, la Daily, la review y la retrospectiva, por lo que desde que empieza un proyecto hasta que acaba, siempre estamos en uno u otro Sprint.
+
+Participantes: El Sprint lo realiza el Equipo Scrum al completo, y se añaden los takeholders en el resto de eventos. 
+
+Qué tareas se tratan: en el Sprint, el Development Team lleva a cabo lo acordado en el Sprint Planning.
+
+Duración: Un Sprint puede durar entre 2 semanas y 2 meses, aunque lo habitual es 2 o 4 semanas.
+
+
 
   **Sprint Planning Meeting**: es la reunión que se hace al comienzo del sprint a la cual asisten el Propietario del producto, el Scrum Master y el equipo de desarrollo. El Product Owner deber tener preparado un Product Backlog y explicar los requerimientos mas importantes, a partir de esto, el equipo de desarrollo evalúa los items del Product Backlog con los que se puede comprometer. La razón del Sprint Planning es conseguir alineamiento entre negocio y desarrollo de producto en relación a las prioridades.
 
