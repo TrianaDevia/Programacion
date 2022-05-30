@@ -26,3 +26,19 @@ Las cuatro ceremonias de Scrum son:
   **Sprint Retrospective Meeting**: reunión al final del Sprint entre el equipo de desarrollo y el Scrum Master.
      La asistencia del Product Owner es opcional aunque es recomendable. Se revisa la forma de trabajo, lo que salio bien y lo
      que es necesario cambiar para mejorar.
+
+
+  # Los Roles del Scrum:
+  
+  **EL Product Owner**: Puede ser el dueño del proyecto o Representa la voz del cliente y es el encargado de maximizar el valor del producto, esta 
+    en el medio de los clientes internos y los desarroyadores, es responzable de definir y priorizar temas y objetivos con criterios
+    de acepatacion osea el "QUE", ademas debe conocer el negocio, tener la capacidad de negociacion, debe ser decisivo y comunicativo.
+    
+  **El Scrum Master**: Es uno de los integrantes del grupo (no es el lider), es un facilitador que ayuda a pensar al equipo para mantenerse 
+    enfocado en los obejtivos del proyecto obtener el mejor resutado, va eliminando los impedimientos que van apareciendo durante el camino.
+    
+  **El Team o Equipo**: Son los desarrolladores (estudiantes, etc..), identifican y hacen el "COMO", es el equipo que se encarga de desarroyar
+    el producto.
+  
+
+  
