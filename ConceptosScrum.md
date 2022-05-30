@@ -6,39 +6,37 @@ Repositorio de la Materia Programación ISPC 2022
 Generan el marco para que los equipos de desarrollo trabajen de forma organizada. 
 Las cuatro ceremonias de Scrum son:
 
-  **Sprint Planning Meeting**: es la reunión que se hace al comienzo del sprint a la cual asisten el Propietario del 
-     producto, el Scrum Master y el equipo de desarrollo. El Product Owner deber tener preparado un Product Backlog
-     y explicar los requerimientos mas importantes, a partir de esto, el equipo de desarrollo evalúa los items del Product
-     Backlog con los que se puede comprometer.
+  **Sprint Planning Meeting**: es la reunión que se hace al comienzo del sprint a la cual asisten el Propietario del producto, el Scrum Master y el equipo de desarrollo. El Product Owner deber tener preparado un Product Backlog y explicar los requerimientos mas importantes, a partir de esto, el equipo de desarrollo evalúa los items del Product Backlog con los que se puede comprometer. La razón del Sprint Planning es conseguir alineamiento entre negocio y desarrollo de producto en relación a las prioridades.
 
-  **Daily Scrum Meeting**: durante la reunión diaria (No mas de 15 minutos) cada miembro del Equipo de Desarrollo debe responder
-     brevemente las siguientes preguntas:
+  **Daily Scrum Meeting**:  Hace referencia a la práctica que permite la inspección y adaptación a través de la auto-organización del equipo. Durante la reunión diaria (No mas de 15 minutos) cada miembro del Equipo de Desarrollo debe responder brevemente las siguientes preguntas:
      ¿Qué hiciste ayer?
      ¿Qué vas a hacer hoy?
      ¿Hay algún obstáculo que impida tu trabajo?
-     Esto es para asegurar el avance continuo del trabajo en equipo.
+     Esto es para asegurar el avance continuo del trabajo en equipo. 
+    
 
-  **Sprint Review Meeting**: reunión a la que asiste el equipo de Scrum (Propietario del Producto, Equipo de
-     Desarrollo y el Scrum Master) y otras partes interesadas, como clientes o usuarios, incluso otros desarrolladores. 
-     El equipo de desarrollo muestra el trabajo completado y responden preguntas que puedan surgir de las partes interesadas,
-     a partir de este feed-back se toman notas de cambios que pueden introducirse en el producto durante el siguiente Sprint.
+  **Sprint Review Meeting**: Es una reunión de trabajo, una de las más importantes porque sirve para marcar   la estrategia de negocio a la que asiste el equipo de Scrum (Propietario del Producto, Equipo de
+   Desarrollo y el Scrum Master) y otras partes interesadas, como clientes o usuarios, incluso otros desarrolladores. 
+   El equipo de desarrollo muestra el trabajo completado y responden preguntas que puedan surgir de las partes interesadas, a partir de este feed-back se toman notas de cambios que pueden introducirse en el producto durante el siguiente Sprint. El software funcionando ha sido validado previamente por el product owner, que se ha encargado de trabajar con el equipo durante el Sprint para asegurarse que cumple con la Definition of Done y, efectivamente, hace que el Sprint Goal sea válido.
 
   **Sprint Retrospective Meeting**: reunión al final del Sprint entre el equipo de desarrollo y el Scrum Master.
-     La asistencia del Product Owner es opcional aunque es recomendable. Se revisa la forma de trabajo, lo que salio bien y lo
-     que es necesario cambiar para mejorar.
+     La asistencia del Product Owner es opcional aunque es recomendable. Se revisa la forma de trabajo, lo que salio bien y lo que es necesario cambiar para mejorar.
+     Suele utilizarse el formato de retrospectiva basado en cinco fases:
+     *Preparar el ambiente
+     *Recolectar información
+     *Generación de ideas
+     *Decidir qué hacer
+     *Cierre
 
 
   # Los Roles del Scrum:
   
-  **EL Product Owner**: Puede ser el dueño del proyecto o Representa la voz del cliente y es el encargado de maximizar el valor del producto, esta 
-    en el medio de los clientes internos y los desarroyadores, es responzable de definir y priorizar temas y objetivos con criterios
-    de acepatacion osea el "QUE", ademas debe conocer el negocio, tener la capacidad de negociacion, debe ser decisivo y comunicativo.
+  **EL Product Owner**: Puede ser el dueño del proyecto o Representa la voz del cliente y es el encargado de maximizar el valor del producto, esta en el medio de los clientes internos y los desarrolladores, es responzable de definir y priorizar temas y objetivos con criterios de acepatacion, osea el "QUE", ademas debe conocer el negocio, tener la capacidad de negociacion, debe ser decisivo y comunicativo.
+  Con cada Sprint, el Product Owner debe hacer una inversión en desarrollo que tiene que producir valor y es fundamental otorgar el poder necesario al Product Owner para que este sea capaz de tomar cualquier decisión que afecte al producto
     
-  **El Scrum Master**: Es uno de los integrantes del grupo (no es el lider), es un facilitador que ayuda a pensar al equipo para mantenerse 
-    enfocado en los obejtivos del proyecto obtener el mejor resutado, va eliminando los impedimientos que van apareciendo durante el camino.
+  **El Scrum Master**: Es uno de los integrantes del grupo (no es el lider), es un facilitador que ayuda a pensar al equipo para mantenerse enfocado en los obejtivos del proyecto obtener el mejor resutado, va eliminando los impedimientos que van apareciendo durante el camino. Tambien se encarga de las labores de mentoring y formación, coaching y de facilitar reuniones y eventos si es necesario.
     
-  **El Team o Equipo**: Son los desarrolladores (estudiantes, etc..), identifican y hacen el "COMO", es el equipo que se encarga de desarroyar
-    el producto.
+  **El Team o Equipo**: Son los desarrolladores (estudiantes, etc..), identifican y hacen el "COMO", es el equipo que se encarga de desarroyar el producto.
   
 
   #   Artefactos en Scrum:
