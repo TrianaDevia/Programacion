@@ -65,14 +65,19 @@ Las cuatro ceremonias de Scrum son:
   Pilares de Scrum:
   
   ● Transparencia
+  
   ● Inspección
+  
   ● Adaptación
   
   Los valores de Scrum:
   
   ● Compromiso
+  
   ● Enfoque
+  
   ● Apertura
+  
   ● Respeto
  
 
