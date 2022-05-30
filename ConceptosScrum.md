@@ -58,6 +58,7 @@ Las cuatro ceremonias de Scrum son:
  # ¿Qué es Scrum?:
   
   Scrum es un **marco de trabajo** por el cual las personas pueden abordar problemas complejos adaptativos, a la vez que entregan productos del máximo valor posible productiva y creativamente.
+  Scrum incluye un conjunto de reuniones, herramientas y funciones que, de forma coordinada, ayudan a los equipos a estructurar y gestionar su trabajo.
   La esencia de Scrum es un pequeño equipo de personas. **El equipo individual es altamente flexible y adaptativo.**  
   
   *Teoría de Scrum:* Scrum se basa en la teoría de control de procesos empírica o empirismo. El empirismo asegura que el conocimiento procede de la experiencia y de tomar decisiones basándose en lo que se conoce.
