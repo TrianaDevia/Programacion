@@ -41,4 +41,17 @@ Las cuatro ceremonias de Scrum son:
     el producto.
   
 
+  #   Artefactos en Scrum:
   
+ Elementos físicos que se producen como resultado de la aplicación de Scrum, los tres principales son:
+ 
+ **Product Backlog**: inventario que contiene cualquier tipo de trabajo que haya que hacer en el producto, es la principal fuente de informacion sobre el producto en Scrum, una lista, en cualquier formato, que contiene todos los requerimientos que necesitamos implementar en el producto. Debe ser gestionado en exclusiva por el Product Owner, siendo su principal función la de priorizar aquellos elementos que tienen más valor en cada etapa y detallarlos para que el equipo de desarrollo sea capaz de valorarlos y ejecutarlos. 
+ Contiene distintos elementos: ** funcionalidades- Bugs- historias de usuario- Tareas tecnicas - Trabajo de investigacion.
+ 
+ **Sprint Baclog**: lista de elementos en los que trabajar durante la etapa de Sprint, normalmente tareas tecnicas mas pequeñas que permiten conseguir un incremento de software terminado. 
+ Es un elemento para visualizar el trabajo a realizar durante cada Sprint y esta gestionado por el equipo de desarrollo, el proposito es mantener la transparencia dentro del desarrollo, actualizandolo durante la iteracion especialmente a atraves de los daily Scrums. Permite visualizar en cada Sprint aquellos elementos que todavia no se han desarrollado, los que si y quienes estan trabajando en los mismo.
+ Este artefacto **permite entender cual es la evolucion del trabajo durante el Sprin, asi como hacer un analisis de riesgos**
+ 
+ **Incremento**: Es el resultado del Sprint, la suma de todas las tareas, casos de uso, historia de usuarios y cualquier elemento que se haya desarrollado durante el Sprint y que sera puesto a disposicion del usuario final en forma de software.
+ 
+ 
