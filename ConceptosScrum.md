@@ -44,9 +44,9 @@ Repositorio de la Materia Programación ISPC 2022
  Elementos físicos que se producen como resultado de la aplicación de Scrum, los tres principales son:
  
  **Product Backlog**: inventario que contiene cualquier tipo de trabajo que haya que hacer en el producto, es la principal fuente de informacion sobre el producto en Scrum, una lista, en cualquier formato, que contiene todos los requerimientos que necesitamos implementar en el producto. Debe ser gestionado en exclusiva por el Product Owner, siendo su principal función la de priorizar aquellos elementos que tienen más valor en cada etapa y detallarlos para que el equipo de desarrollo sea capaz de valorarlos y ejecutarlos. 
- Contiene distintos elementos: ** funcionalidades- Bugs- historias de usuario- Tareas tecnicas - Trabajo de investigacion.
+ Contiene distintos elementos: ** funcionalidades- Bugs- historias de usuario- Tareas tecnicas - Trabajo de investigación.
  
- **Sprint Baclog**: lista de elementos en los que trabajar durante la etapa de Sprint, normalmente tareas tecnicas mas pequeñas que permiten conseguir un incremento de software terminado. 
+ **Sprint Backlog**: lista de elementos en los que trabajar durante la etapa de Sprint, normalmente tareas técnicas mas pequeñas que permiten conseguir un incremento de software terminado. 
  Es un elemento para visualizar el trabajo a realizar durante cada Sprint y esta gestionado por el equipo de desarrollo, el proposito es mantener la transparencia dentro del desarrollo, actualizandolo durante la iteracion especialmente a atraves de los daily Scrums. Permite visualizar en cada Sprint aquellos elementos que todavia no se han desarrollado, los que si y quienes estan trabajando en los mismo.
  Este artefacto **permite entender cual es la evolucion del trabajo durante el Sprin, asi como hacer un analisis de riesgos**
  
@@ -82,7 +82,7 @@ Duración: Un Sprint puede durar entre 2 semanas y 2 meses, aunque lo habitual e
      Esto es para asegurar el avance continuo del trabajo en equipo. 
     
 
-  **Sprint Review Meeting**: Es una reunión de trabajo, una de las más importantes porque sirve para marcar   la estrategia de negocio a la que asiste el equipo de Scrum (Propietario del Producto, Equipo de
+  **Sprint Review Meeting**: Es una reunión de trabajo, una de las más importantes porque sirve para marcar la estrategia de negocio a la que asiste el equipo de Scrum (Propietario del Producto, Equipo de
    Desarrollo y el Scrum Master) y otras partes interesadas, como clientes o usuarios, incluso otros desarrolladores. 
    El equipo de desarrollo muestra el trabajo completado y responden preguntas que puedan surgir de las partes interesadas, a partir de este feed-back se toman notas de cambios que pueden introducirse en el producto durante el siguiente Sprint. El software funcionando ha sido validado previamente por el product owner, que se ha encargado de trabajar con el equipo durante el Sprint para asegurarse que cumple con la Definition of Done y, efectivamente, hace que el Sprint Goal sea válido.
 
