@@ -30,12 +30,12 @@ Repositorio de la Materia Programación ISPC 2022
 
 # Los Roles del Scrum:
   
-  **EL Product Owner**: Puede ser el dueño del proyecto o Representa la voz del cliente y es el encargado de maximizar el valor del producto, esta en el medio de los clientes internos y los desarrolladores, es responzable de definir y priorizar temas y objetivos con criterios de acepatacion, osea el "QUE", ademas debe conocer el negocio, tener la capacidad de negociacion, debe ser decisivo y comunicativo.
-  Con cada Sprint, el Product Owner debe hacer una inversión en desarrollo que tiene que producir valor y es fundamental otorgar el poder necesario al Product Owner para que este sea capaz de tomar cualquier decisión que afecte al producto
+  **EL Product Owner**: Puede ser el dueño del proyecto o Representa la voz del cliente y es el encargado de maximizar el valor del producto, esta en el medio de los clientes internos y los desarrolladores, es responsable de definir y priorizar temas y objetivos con criterios de aceptación, osea el "QUE", ademas debe conocer el negocio, tener la capacidad de negociacion, debe ser decisivo y comunicativo.
+  Con cada Sprint, el Product Owner debe hacer una inversión en desarrollo que tiene que producir valor y es fundamental otorgar el poder necesario al Product Owner para que este sea capaz de tomar cualquier decisión que afecte al producto.
     
   **El Scrum Master**: Es uno de los integrantes del grupo (no es el lider), es un facilitador que ayuda a pensar al equipo para mantenerse enfocado en los obejtivos del proyecto obtener el mejor resutado, va eliminando los impedimientos que van apareciendo durante el camino. Tambien se encarga de las labores de mentoring y formación, coaching y de facilitar reuniones y eventos si es necesario.
     
-  **El Team o Equipo**: Son los desarrolladores (estudiantes, etc..), identifican y hacen el "COMO", es el equipo que se encarga de desarroyar el producto.
+  **El Team o Equipo**: Son los desarrolladores (estudiantes, etc..), identifican y hacen el "COMO", es el equipo que se encarga de desarrollar el producto.
 
 
  #   Artefactos en Scrum:
