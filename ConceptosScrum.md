@@ -1,7 +1,7 @@
-# Programacion
+# Programación
 Repositorio de la Materia Programación ISPC 2022
 
-# ¿Qué es Scrum?:
+# ¿Qué es Scrum?
   
   Scrum es un **marco de trabajo** por el cual las personas pueden abordar problemas complejos adaptativos, a la vez que entregan productos del máximo valor posible productiva y creativamente.
   Scrum incluye un conjunto de reuniones, herramientas y funciones que, de forma coordinada, ayudan a los equipos a estructurar y gestionar su trabajo.
@@ -9,7 +9,7 @@ Repositorio de la Materia Programación ISPC 2022
   
   *Teoría de Scrum:* Scrum se basa en la teoría de control de procesos empírica o empirismo. El empirismo asegura que el conocimiento procede de la experiencia y de tomar decisiones basándose en lo que se conoce.
   
-  Pilares de Scrum:
+  Pilares de Scrum
   
   ● Transparencia
   
@@ -28,7 +28,7 @@ Repositorio de la Materia Programación ISPC 2022
   ● Respeto
   
 
-# Los Roles del Scrum:
+# Los Roles del Scrum
   
   **EL Product Owner**: Puede ser el dueño del proyecto o Representa la voz del cliente y es el encargado de maximizar el valor del producto, esta en el medio de los clientes internos y los desarrolladores, es responsable de definir y priorizar temas y objetivos con criterios de aceptación, osea el "QUE", ademas debe conocer el negocio, tener la capacidad de negociacion, debe ser decisivo y comunicativo.
   Con cada Sprint, el Product Owner debe hacer una inversión en desarrollo que tiene que producir valor y es fundamental otorgar el poder necesario al Product Owner para que este sea capaz de tomar cualquier decisión que afecte al producto.
@@ -38,7 +38,7 @@ Repositorio de la Materia Programación ISPC 2022
   **El Team o Equipo**: Son los desarrolladores (estudiantes, etc..), identifican y hacen el "COMO", es el equipo que se encarga de desarrollar el producto.
 
 
- #   Artefactos en Scrum:
+ #   Artefactos en Scrum
   
  Elementos físicos que se producen como resultado de la aplicación de Scrum, los tres principales son:
  
@@ -53,7 +53,7 @@ Repositorio de la Materia Programación ISPC 2022
  
 
 
-# Ceremonias de Scrum: 
+# Ceremonias de Scrum 
 
 Generan el marco para que los equipos de desarrollo trabajen de forma organizada. 
 Las cinco ceremonias de Scrum son:
