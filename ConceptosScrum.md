@@ -5,7 +5,8 @@ Repositorio de la Materia Programación ISPC 2022
   
   Scrum es un **marco de trabajo** por el cual las personas pueden abordar problemas complejos adaptativos, a la vez que entregan productos del máximo valor posible productiva y creativamente.
   Scrum incluye un conjunto de reuniones, herramientas y funciones que, de forma coordinada, ayudan a los equipos a estructurar y gestionar su trabajo.
-  La esencia de Scrum es un pequeño equipo de personas. **El equipo individual es altamente flexible y adaptativo.**  
+  La esencia de Scrum es un pequeño equipo de personas. **El equipo individual es altamente flexible y adaptativo.** 
+  El Scrum es una de las metodologias mas utlizadas en la actualidad, totalmente opuesta a la metodologia de cascada que era costosa, y cuando se entrega el producto, en muchos casos ya es obsoleto por el avance de la tecnologia. El Scrum en cambio, utiliza procesos iterativos, en donde el equipo se compromete con el proyecto para obtener los resultados, los cuales se van entregando en forma parcial para que el usuario o dueño del software vaya haciendo el chequeo correspondiente. La metodologia Scrum no se encuentra sujeta solo al uso en la industria del software.
   
   *Teoría de Scrum:* Scrum se basa en la teoría de control de procesos empírica o empirismo. El empirismo asegura que el conocimiento procede de la experiencia y de tomar decisiones basándose en lo que se conoce.
   
