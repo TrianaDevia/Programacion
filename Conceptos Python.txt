@@ -1,0 +1,797 @@
+Programar : es simplemente el acto de ingresar instrucciones para que una computadora las cumpla. Estas 
+instrucciones puede que hagan cálculos, modifiquen texto, manejen archivos o se comuniquen con otras 
+computadoras a través de Internet.
+
+Programa:  Es un conjunto de algoritmos. Solucion a un problema.
+
+Algoritmo: un conjunto de instrucciones, ordenadas de manera tal, que ejecutandolas se llegue a un resultado esperado.
+Cualitativos:  utilizan palabras
+Cuantitativos: utilizan numeros
+
+Instruccion: Es una orden , dentro de un conjunto de ordenes. Todas ellas forman parte del algoritmo.
+
+Variabe: es un contenedor de valor que ocupa un espacio en la memoria ram.
+En Python las variables no se declaran, se crean asignándoles un valor.
+El signo de asignación es =
+Nombres de Variables
+Reglas en Python:
+1. Solo puede ser una palabra.
+2. Solo puede ser letras, números, guion bajo, o una combinación de estos.
+3. No puede comenzar con un número
+Python es case-sensitive:
+Convenciones para nombrar variables:
+camelCase (ej: balanceActual)
+guion_bajo (ej: Balance_actual)
+ 
+Lenguaje de programacion: es el conjunto de instrucciones y algoritmos  escritas en una sintaxis que la computadora entiende e interpreta en lenguaje demáquina. Cada lenguaje de programacion tiene su propia sintaxis y sus palabras reservadas.
+
+Sintaxis: Es la forma de escribir codigo en programacion.
+
+Compilar: Es transformar el lenguaje de programacion en lenguaje de maquina
+
+tipo de datos: enteros,racionales y cadenas
+
+Control de flujo: Decide bajo que condiciones se ejecutan las instrucciones de nuestro codigo.
+
+Constantes:  es un dato numerico o alfanumerico que no cambia durante la ejecucion del programa.
+
+Operadores matemáticos:
+** Exponente 
+% Módulo/Resto 
+// División Entera 
+/ División 
+* Multiplicación 
+- Resta 
++ Suma 
+
+Orden de evaluación:
+1° ** 2° % // / * 3° - +
+
+Valor:
+Tipos de datos Abreviación 
+Enteros/Integers int (ej: -2, -1 , 0, 1, 2, 3, 4, 5)
+Racionales/Floating-point float (ej: -1.25, -1.0, -0.5, 0.0, 0.5, 1.0, 1.25)
+Cadenas/Strings str (ej: ‘a’, ‘aa’, ‘aaa’, ‘Hola!’, ’11 gatos’)
+
+Funciones de salida y entrada de datos:
+*Para la entrada de datos se utiliza input
+*Para la salida de datos se utiliza print
+
+Funciones que convierten tipos de datos:
+int() convierte el argumento a integer/entero
+float() convierte el argumento a float/racional
+str() convierte el argumento a string/cadena
+
+Controles de Flujo: 
+Los controles de flujo nos permiten crear escenarios en los cuales nuestro programa se saltee instrucciones, las repita o elija que acción ejecutar. Es decir que un control de flujo decide bajo que condición se ejecutan las instrucciones de Python de nuestro código.
+
+Valores Booleanos
+Infinitos valores distintos: Integers, Floating-Points y Strings
+ Booleanos: True y False
+
+Operadores de Comparación
+Operador: Significado:
+   ==       Igual a
+   ¡=       Distinto a
+   <        Menor que
+   >        Mayor que
+   <=       Menor o igual que
+   >=       Mayor o igual que
+
+Operadores Booleanos: AND , OR,  NOT
+
+Operador                 Devuelve True                                 Devuelve False
+  and              si ambos valores son verdaderos                  Si ambos valores no son verdaderos
+  or               si al menos uno de los valores es verdadero      Si ninguno de los valores es verdadero
+  not              Si el valor falso                                Si el valor es verdadero
+
+ Tabla de Verdad AND:
+
+       Operación               Resultado
+    True and True                True
+    True and False               False
+    False and True               False
+    False and False              False 
+    
+Tabla de Verdad OR:
+
+       Operación               Resultado
+      True or True               True
+      True or False              True
+      False or True              True
+      False or False             False 
+      
+Tabla de verdad NOT:
+
+      Operación                Resultado
+      not True                   False
+      not False                  True
+
+
+                        Sentencias de flujo de control IF
+Creando un control de flujo:
+1. if -> palabra reservada
+2. Condición (es decir una expresión que devuelva True o False)
+3. : dos puntos
+4. Indentación de 4 espacios que delimita el comienzo de un nuevo bloque de código.
+
+Else (Sino)
+1. else-> palabra reservada
+2. : dos puntos
+3. Indentación de 4 espacios que delimita el comienzo de un nuevo bloque de código.
+
+
+Bucles y Ciclos de Repetición:
+While:
+ Utilizando una sentencia While podemos ejecutar el mismo bloque de código una y otra vez mientras que la condición que definamos dé como resultado True.
+
+Para escribir un ciclo While en Python:
+1. while -> Palabra reservada
+2. Condición lógica (Una expresión que devuelva True o False)
+3. : dos puntos
+4. Indentación de 4 líneas que delimitan el inicio de un nuevo bloque de código.
+
+
+
+Es decir, una sentencia While es muy similar a un control de flujo if. La diferencia está en que al final de un if, un programa sigue ejecutando el resto de las líneas del programa. Pero cuando un programa llega a la última línea de un bloque de código de While, este salta al principio y vuelve a evaluar la condición que hayamos escrito.
+
+                                         break
+Existe una manera de hacer que nuestro programa salga de un ciclo de repetición prematuramente. Si el programa ejecuta un break inmediatamente saldrá del bucle y continuará con la ejecución del resto del código.
+
+                                        continue
+Al igual que el comando break, los continue se utilizan dentro de ciclos de repetición. Cuando el programa ejecuta un continue, inmediatamente saltará al comienzo del ciclo y evaluará de nuevo la condición lógica del while. Es decir hará lo mismo que como si hubiéramos llegado al final del ciclo.
+
+
+Ciclo de repetición For:
+El ciclo de repetición while sigue repitiéndose mientras que se cumpla una condición, pero en el caso de que queramos que el bloque de código se ejecute una determinada cantidad de veces podremos utilizar un ciclo de repetición for junto a la función range().
+
+Para escribir un ciclo for en Python:
+1. for -> palabra reservada.
+2. una variable.
+3. in -> palabra reservada.
+4. llamada a la función range() -> se le podrán pasar hasta 3 argumentos.
+5. : dos puntos.
+6. Indentación de 4 lineas que delimitan el comienzo de un nuevo bloque de código.
+
+Función Range:
+Algunas funciones como range(), aceptan más de un argumento y van separadas con una coma. En el caso de range nos permiten indicar en que número queremos que empiece el rango, hasta qué número debe llegar la variable, y cuanto será el incremento entre cada ciclo.
+
+Funciones:
+ Una función es como un mini-programa dentro de un programa. Es un bloque de codigo que podremos llamar y reutilizar en distintas partes de nuestro programa. La palabra reservada es def, a esta palabra reservada le siguen un nombre , luego () al final es segida de : 
+ ej:
+ def ejemplo():
+
+Definición de Función con Parámetros:
+Cuando utilizamos la función print() o len() , les pasamos valores llamados argumentos que van escritos entre los paréntesis de la función. Cuando definimos funciones también podemos hacer que acepten argumentos al definir parámetros dentro de los paréntesis.
+Un detalle a tener en cuenta es que, al igual que cuando termina o cerramos un programa, cuando una función termina los valores de sus parámetros se pierden.
+
+Devolver Valor o Sentencia: Return
+Cuando llamamos a la función len() y le pasamos un argumento como ‘Hola’, la función evalúa la cadena y nos devuelve el valor 5. El valor que devuelve una función puede llamarse valor de retorno o Return Value.
+Cuando creamos una función podemos definir cuál será el valor de retorno utilizando la palabra reservada return.
+
+El Valor Nulo o None:
+En Python existe un valor llamado None, que representa la ausencia de valores. None es el único valor del tipo NoneType. (Otros lenguajes de programación lo llaman null, nil, o undefined) Al igual que los booleanos True y False, None debe ser tipeado con una N mayúscula.
+Cuando creamos una función y no definimos un valor de retorno utilizando return, Python automáticamente agrega un return None al final de nuestra función. Lo mismo ocurrirá si escribimos return y sin un valor retorno.
+
+Variables Locales y ámbito Globales:
+Las variables que utilizamos dentro una función se conocen como Variables Locales y no tendrán un alcance global.
+ Otros ámbitos Locales no pueden utilizar Variables Locales en otros ámbitos Locales
+
+Variables Globales:
+Las variables que utilizamos fuera de las funciones se conocen como Variables Globales. En el caso de necesitar cambiar una variable global, utilizando una función, podremos escribir global seguido de la variable global que vayamos a utilizar en la función.
+
+Listas:
+Las Listas y Tuplas pueden contener múltiples valores, lo cual hace más fácil escribir programas que manejen grandes cantidades de datos. Y como las Listas en sí pueden contener otras Listas, pueden utilizarse para organizar datos en estructuras jerárquicas.
+Una Lista es un valor que puede contener múltiples valores ordenados secuencialmente. El termino lista se refiere a la lista misma, no a los valores dentro del valor lista.
+
+Al igual que como delimitamos cadenas utilizando comillas ‘’, las Listas se delimitan utilizando corchetes []. Los valores dentro de una lista se llaman Elementos. Y los Elementos van separados con comas. Por ejemplo:
+>>> [1, 2, 3]
+>>> ['gato', 'perro', 'ratón', 'elefante']
+>>> ['hola', 3.1415, True, None, 42]
+>>> spam = ['gato', 'perro', 'ratón', 'elefante']
+A la variable spam le estamos asignando un solo valor: el valor lista. Pero la lista en sí contiene otros valores.
+
+ El valor [] es una lista vacía, similar a como ‘’ sería una cadena vacía.
+
+Obteniendo valores de una Lista utilizando Índices:
+Si tenemos una lista con ['gato', 'perro', 'ratón', 'elefante'] guardada en una variable spam. La expresión spam[0] se evalúa a ‘gato’, spam[1] se evalúa a ‘perro’ y así. El entero dentro de los corchetes se lo llama índice.
+>>> spam = ['gato', 'perro', 'ratón', 'elefante']
+>>> spam[0]
+>>> spam[1]
+>>> spam[2]
+>>> spam[3]
+>>> ['gato', 'perro', 'ratón', 'elefante'][3]
+>>> 'Hola ' + spam[0]
+>>> 'El ' + spam[1] + ' se comió al ' + spam[0] + '.'
+Las Listas también pueden contener otras Listas. Para acceder a los valores de esas Listas hay que utilizar más de un índice.
+>> spam = [['gato', 'perro'], [10, 20, 30, 40, 50]]
+>>> spam[0]
+>>> spam[0][1]
+>>> spam[1][4]
+El primer índice determina qué lista acceder, y el segundo qué elemento de esa lista queremos obtener.
+
+Índices Negativos:
+Lo índices empiezan empiezan en 0 pero también pueden ser negativos. Un índice -1 se refiere al último elemento de la lista, un -2 se refiere al ante último elemento y así.
+>>> spam = ['gato', 'perro', 'ratón', 'elefante']
+>>> spam[-1]
+>>> spam[-3]
+>>> 'El ' + spam[-1] + ' tiene miedo del ' + spam[-2] + '.'
+
+Creando SubListas con Slices/Rangos;
+Un índice nos permite conseguir un valor de la lista, mientras que una slice/rango nos permite conseguir múltiples valores. Al igual que el índice un rango se escribe entre corchetes, pero tiene 2 números enteros separados por dos puntos.
+ spam[2] es una lista con un índice (un entero).
+ spam[1:4] es una lista con un rango (dos enteros).
+En un rango, el primer entero es el índice donde comienza el rango. El segundo entero es donde termina. El rango incluye todos los valores hasta el segundo entero, pero sin incluirlo. Un rango se evalúa a una nueva lista.
+>>> spam = ['gato', 'perro', 'ratón', 'elefante']
+>>> spam[0:4]
+>>> spam[1:3]
+>>> spam[0:-1]
+
+Si no escribimos el primer entero de un rango es lo mismo que escribir 0. Y si no escribimos el segundo entero será como escribir la longitud de la lista.
+>>> spam = ['gato', 'perro', 'ratón', 'elefante']
+>>> spam[:2]
+>>> spam[1:]
+>>> spam[:]
+
+
+Obtener la longitud de una lista con len():
+La función len() devuelve el número de elementos que hay dentro de una lista cuando le pasamos una en su argumento.
+>>> spam = ['gato', 'perro', 'ratón']
+>>> len(spam)
+Cambiar los Valores de una Lista utilizando índices
+Normalmente cuando asignamos el valor a una variable lo hacemos como spam = 42. Pero con índices podemos asignar un valor a una posición en particular de una lista.
+>>> spam = ['gato', 'perro', 'ratón', 'elefante']
+>>> spam[1] = 'Joaquin'
+>>> spam
+>>> spam[2] = spam[1]
+>>> spam
+>>> spam[-1] = 12345
+>>> spam
+
+
+Concatenación y Replicación de Listas:
+El operador + al que utilizamos para concatenar cadenas y crear una nueva conformada por ambas puede unir 2 listas en una nueva con todos los valores de las mismas. Y el operador * también puede utilizarse con un entero para replicar los valores de una lista.
+>>> [1, 2, 3] + ['A', 'B', 'C']
+>>> ['X', 'Y', 'Z'] * 3
+>>> spam = [1, 2, 3]
+>>> spam = spam + ['A', 'B', 'C']
+>>> spam
+
+
+Remover valores de una Lista utilizando el comando del:
+El comando del elimina un elemento de la lista. Todos los valores que figuraban después se moverán una posición hacia atrás.
+>>> spam = ['gato', 'perro', 'ratón', 'elefante']
+>>> del spam[2]
+>>> spam
+>>> del spam[2]
+>>> spam
+El comando del también sirve para eliminar variables, pero por lo general no se lo utiliza para ese fin.
+
+Los operadores in y not in: 
+Podemos determinar si un valor está o no en una lista utilizando los operadores in y not in. Estos operadores devuelven valores Booleanos (True o False).
+
+Métodos de Listas: index(), append(), insert(), remove() y sort()
+Un método es lo mismo que una función, pero solo puede llamarse a partir de un tipo de variable en particular. A continuación, veremos métodos que pueden llamarse cuando trabajamos con variables del tipo Lista:
+
+*index(): Toma un valor, lo busca en la lista y devuelve en qué posición lo encontró. Si encuentra varias veces el valor, solo devolverá la posición del primero que encontró.
+*append(): Para agregar nuevos valores al final de una lista se puede utilizar el método 
+*insert(): Toma 2 valores: uno para determinar en qué posición de la lista se insertará y el otro será el valor a insertar.
+*remove(): Busca un valor en la lista y elimina la primera coincidencia que encuentre. Tratar de remover un valor que no existe devolverá un error ValueError.
+*sort(): Listas con números o Listas con cadenas pueden ordenarse utilizando este método 
+*También puede utilizarse la keyword reverse=True para ordenarlas al revés.
+*copy(): Si tratamos de copiar una lista de la manera normal, nos encontraremos con un problema cuando las modifiquemos. Cualquier cambio que hagamos a una de estas listas también ocurrirá en la otra. Esto se debe a que, en Python, cuando asignamos una lista a una variable no se crea una copia nueva de la lista, sino que se asigna la misma dirección de memoria de la primera lista a la segunda. 
+ Para evitar que ocurra esto es necesario utilizar el método copy().
+
+ Diccionarios y Estructuras de Datos:
+Al igual que una lista, un diccionario es una colección de muchos valores. Pero a diferencia de los índices enteros que utilizan las listas, los índices de los diccionarios pueden ser otros tipos de datos, no solo enteros. A los índices de los diccionarios se los llama keys o claves.
+En Python, los diccionarios se escriben con llaves {}
+Los Diccionarios todavía pueden utilizar números enteros como clave, pero no necesitan empezar en 0 y pueden ser cualquier número.
+
+Diferencias entre Diccionarios y Listas:
+A diferencia de las listas, los elementos de un diccionario no tienen un orden.
+Como los diccionarios no tienen orden no podremos utilizar rangos o Slices con estos.
+Si tratamos de acceder a una clave que no existe en un diccionario recibiremos un error del tipo KeyError, parecido al IndexError que sucede con listas cuando nos salimos de rango.
+
+Los métodos keys(), values() e ítems():
+Existen 3 métodos de diccionario que devuelven valores parecidos a una lista de: claves, valores o ambos. Estos valores parecen listas, pero no pueden ser modificados porque pertenecen a otros tipos de datos llamados dict_keys, dict_values y dict_items y que principalmente se utilizan en ciclos de repetición. 
+
+Ejemplo: 
+>>> spam = {'color': 'rojo', 'edad': 42}
+>>> for v in spam.values():
+print(v)
+>>> for k in spam.keys():
+print(k)
+>>> for i in spam.items():
+print(i)
+
+Si queremos listas de estos valores se puede utilizar la función list()
+>>> spam = {'color': 'rojo', 'edad': 42}
+>>> spam.keys()
+>>> list(spam.keys())
+
+La función list(spam.keys) toma los valores de la dict_key y los devuelve en forma de lista.
+Podemos utilizar el truco de asignación múltiple en un ciclo for para asignar la clave y el valor a distintas variables.
+>>> spam = {'color': 'rojo', 'edad': 42}
+>>> for k, v in spam.items():
+print('Clave: ' + k + ' Valor: ' + str(v))
+
+Operadores in y not in con Diccionarios:
+Al igual que con listas, podes utilizar los operadores in y not in para verificar si una clave o valor existe dentro de un diccionario en particular.
+
+El método get():
+Para no tener que prevenir los errores de no encontrar una clave dentro de un diccionario existe el método get(). Este método toma 2 argumentos: la clave del valor que estamos buscando, y el valor que devolverá en caso de no encontrarlo.
+
+El método setdefault():
+El método setdefault() acepta 2 argumentos, el primero para buscar una clave en el diccionario y el segundo para asignarle un valor si esa clave no existe. De esta manera, podemos en una sola línea de código, crear una clave solo si no existe y asignarle un valor.
+
+Pretty Printing
+Existe un módulo o librería llamada Pretty Printing que nos puede ayudar a mostrar nuestros diccionarios en pantalla. Pretty Printing nos da acceso a las funciones pprint() y pformat() para lograr esto.
+
+pformat():
+SI en lugar de imprirlo directamente por pantalla queremos utilizar la string para algo más, se puede utilizar pformat()
+
+
+Manipulación de Cadenas:
+
+*Comillas Dobles: Las cadenas o strings pueden comenzar o terminar con comillas dobles al igual que como veníamos utilizando las comillas simples. Un beneficio de esto es que las comillas dobles nos permiten utilizar la comilla simple dentro de las comillas dobles.
+
+>>> spam = "Esa es mi colección de DVD’s"
+
+Como la cadena comienza con comilla doble, Python sabe que la comilla simple es parte de la cadena. Pero si necesitamos utilizar ambas, dobles y simples, necesitaremos hacer uso de los caracteres de escape.
+
+*Caracteres de Escape:
+Un carácter de escape nos permite utilizar caracteres que de otra manera serían imposibles poner en una cadena. Un carácter de escape consiste de la barra invertida \ seguida del carácter que queremos agregar a la cadena. Por ejemplo, el carácter de escape para una comilla simple es \’. Podemos usarlo dentro de una cadena que comienza y termina con comillas simples.
+
+>>> spam = 'Que 'simpático' que sos.'
+
+           Carácter de escape                  Imprime…
+                \'                           Comilla simple
+                \"                           Comilla Doble
+                \t                           Tabulación
+                \n                           Nueva línea
+                \\                           Barra invertida
+
+Raw String o Cadena sin procesar:
+Se puede agregar una r antes de la comilla de una cadena para convertirla en una Raw String o cadena sin procesar. Esto hace que se ignoren por completo todos los caracteres de escape y se impriman las barras invertidas.
+
+>>> print(r'Esos son los CD\'s de Claudio.')
+
+Este tipo de cadenas son útiles cuando necesitamos utilizar cadenas que contengan muchas barras invertidas.                
+
+Cadena de línea múltiple con triple comillas:
+Hasta ahora venimos utilizando \n para crear nuevas líneas, pero a veces nuestro código es más fácil de leer si utilizamos cadenas de líneas múltiples. Una cadena multilínea en Python se escribe utilizando tres comillas simples o tres comillas dobles. Cualquier comilla, tabulación, o líneas nuevas dentro de esta cadena se las considerará parte de la misma. La indentaciones de Python se ignoran en cadenas multilínea.
+Ejemplo:
+print('''Querida Alicia,
+El gato de Eva ha sido arrestado por secuestro, robo y extorsión.
+Sinceramente,
+Roberto''')
+El equivalente sin triple comilla sería:
+print('Querida Alicia,\n\nEl gato de Eva ha sido arrestado por secuestro, robo y extorsión.\n\nSinceramente,\nRoberto')
+
+Comentarios multilínea:
+Nuestros comentarios que escribimos con # también pueden abarcar múltiples líneas si utilizamos tres comillas dobles.
+"""Este es un programa de prueba.
+Escrito en Buenos Aires, Argentina. 2020.
+Este programa fue diseñado para Python 3."""
+
+Índices y Rangos de cadena:
+Podemos utilizar índices y rangos con cadenas de la misma manera que con listas. La cadena ‘Hola mundo!’ funciona como una lista donde cada carácter es un elemento de una lista con su índice correspondiendo a su posición en la cadena.
+
+Operador in y not in con cadenas:
+Podemos utilizar los operadores in y not in con cadenas igual que como con listas. La expresión será evaluada a un valor booleano True o False.
+
+>>> 'Hola' in 'Hola Mundo'
+>>> 'Hola' in 'Hola'
+>>> 'HOLA' in 'Hola Mundo'
+>>> '' in 'spam'
+>>> 'gatos' not in 'gatos y perros'
+Nota: estos operadores son case-sensitive.
+
+Cadenas dentro de cadenas:
+
+>>> nombre = 'Alberto'
+>>> edad = 4000
+>>> 'Hola, mi nombre es ' + nombre + '. Tengo ' + str(edad) + 'años.'
+
+También se puede utilizar interpolación de cadenas. Lo cual tiene la ventaja de no necesitar la función str() para convertir las variables a string.
+>>> 'Mi nombre es %s. Tengo %s años.' % (nombre, edad)
+
+A partir de Python 3.6 existen las f strings, que nos permiten utilizar llaves en vez de %s y poner las variables directamente dentro de ellos.
+>>> f'Mi nombre es {nombre}. El año que viene tendré {edad + 1}.'
+
+Métodos de cadenas: upper(), lower(), isupper(), islower()
+Los métodos upper() y lower() devuelven una nueva con todos sus caracteres en mayúscula o minúscula, respectivamente.
+Estos métodos pueden ser útiles cuando necesitamos hacer una comparación no case-sensitive.
+
+Los métodos isupper() y islower() nuevamente reciben una cadena y devuelven un booleano True o False dependiendo de si todos los caracteres de la cadena están en mayúscula o en minúscula, respectivamente.
+
+Métodos isX()
+A parte de los métodos islower() y isupper(), existen varios métodos más que comienzan con is. Todos estos métodos devuelven un booleano para describir la cadena que les pasamos.
+ isalpha() devuelve True si la cadena contiene solo letras.
+ isalnum() devuelve True si la cadena contiene solo letras y números.
+ isdecimal() devuelve True si la cadena contiene solo números.
+ isspace() devuelve True si la cadena contiene solo espacios.
+ istitle() devuelve True si la cadena contiene solo palabras que comienzan con mayúcula.
+
+Todos estos métodos son útiles a la hora de validar el input/entrada del usuario.
+
+Métodos startswith(), endswith() y find()
+Los métodos startswith() u endswith() devuelven un booleano True o False si la cadena empieza o termina, respectivamente, con el argumento que le pasamos.
+
+El método find() funciona de manera similar, nos permite buscar en un rango de la cadena en particular y devolverá -1 si no lo encuentra o la posición donde se encontró la cadena.
+
+Métodos join() y split():
+Los métodos join() y split() nos sirven a la hora de unir listas de cadenas. El método join() se llama en una cadena y toma como argumento una lista con valores string que se concatenaran con la cadena separándolos. Por el otro lado el método split() devuelve una lista de cadenas donde cada valor serán las palabras de la cadena, por defecto los espacios en blanco se utilizan para delimitarlas.
+Si le pasamos un argumento a split() podemos definir otros caracteres para delimitar nuestros elementos.
+
+Justificación de texto con rjust(), ljust() y center():
+Los métodos rjust() y ljust() devuelven una cadena con una cantidad de espacios agregados a la derecha o izquierda, respectivamente, para que contándolos junto a los caracteres de la cadena den el número que recibido en el argumento.
+
+El método center() es una combinación de ljust() y rjust().
+
+Remover espacios en blanco con strip(), rstrip() y lstrip()
+A veces necesitamos borrar los espacios vacíos alrededor de una cadena, para esto se puede utilizar el método strip(), o rstrip() y lstrip() para borrar los espacios de un solo lado.
+También podemos cambiar qué carácter borrar en vez de los espacios en blanco.
+Nota: el orden de los caracteres no importa en este caso.
+
+Copiando y Pegando cadenas con Pyperclip
+El módulo pyperclip contiene las funciones copy() y paste() que pueden recibir o enviar texto del portapapeles de nuestra computadora.
+Este módulo no viene incluido con Python. Para instalarlo habrá que ejecutar el comando pip install pyperclip en el símbolo de sistema.
+
+>>> import pyperclip
+>>> pyperclip.copy('Hola mundo!')
+>>> pyperclip.paste()
+>>> pyperclip.paste()
+
+
+
+Archivos:
+Leyendo y escribiendo archivos: Las  variables  nos  sirven  mientras  estamos  corriendo  un  programa,  pero  cuando  necesitamos guardar datos de manera permanente hay que utilizar archivos. Los contenidos de un archivo son  algo  parecido  a  una  cadena  o  string  que  se  extiende  hasta  llegar  a  veces hasta  varios gigabytes en tamaño.
+
+Archivos y Direcciones o Paths: 
+Un  archivo  tiene  2  propiedades: un  nombre  de  archivo  o  filename  y  una  dirección  o  path. 
+
+La dirección especifica la ubicación del archivo en la computadora.
+C:\ es  lo  que  se  llama  el  directorio  raíz  o  root, y que  contiene  a  todas  las  otras  carpetas.  En Windows,la carpeta raíz o root folder se llama C:\ y también se llama el disco C: . En OSX y Linux, la carpeta raíz es / .
+
+En  Windows  se  utiliza  la  barra  invertida  para  separar  carpetas y  archivos  en  una  dirección, mientras que en OSX y Linux se usa la barra. Esto es importante si quieren que sus programas de Python funcionen en otros sistemas operativos.
+
+*Para facilitar esta diferencia existe una función llamada os.path.join(): 
+Si se le pasamos cadenas con los nombres de las carpetas y archivos en la dirección, os.path.join() deolverá una cadena con el separador correspondiente al sistema operativo donde se está corriendo el programa.
+
+>>> import os
+>>> os.path.join('Usuarios', 'Documentos', 'Spam.docx')
+>>> misArchivos = ['cuentas.txt', 'detalles.csv', 'invitación.docx']
+>>> for nombreArch in misArchivos:
+print(os.path.join('C:\\Usuarios\\Alan', nombreArch))
+
+
+*Directorio de Trabajo Actual o Current Working Directory:
+ Todos los programas tienen un Directorio de Trabajo Actual o Current Working DIrectory, o CWD. 
+Todos los archivos, o direcciones que no comienzan en el directorio raíz, se asume que se encuentran en el cwd. Podemos averiguar cuál es el cwd utilizando la función os.getcwd() y cambiarlo utilizando os.chdir()
+
+>>> import os
+>>> os.getcwd()
+>>> os.chdir('C:\\Windows\\System32')
+>>> os.getcwd()
+>>> os.chdir('C:\\EstaCarpetaNoExiste')
+
+
+*Dirección Absoluta o Dirección Relativa:
+Hay 2 maneras de escribir la dirección de un archivo o carpeta.
+Como dirección absoluta, que siempre comienza con el directorio raíz.
+Como dirección relativa, es decir se lee en relación al directorio de trabajo actual.
+También existen las carpetas punto (.) y dos-puntos (..). Estas no son carpetas de verdad sino nombres especiales que se pueden utilizar en una dirección. Un solo punto significa “este directorio”. Y dos-puntos significa carpeta de nivel superior.
+
+*Manejo de direcciones Absolutas y Relativas:
+A continuación, una lista de funciones para el manejo de direcciones: 
+
+os.path.abspath(direccion) devolverá una cadena con la dirección absoluta de la dirección.
+os.path.isabs(dirección)devolverá un booleano True o False si el argumento es una dirección absoluta o no.
+os.path.relpath(dirección1, dirección2)devolverá una cadena con la dirección relativa entre una dirección y otra. Si el segundo argumento no está definido se utilizará el cwd en su lugar.
+
+>>> os.path.abspath('.')
+>>> os.path.abspath('.\\Scripts')
+>>> os.path.isabs('.')
+>>> os.path.isabs(os.path.abspath('.'))
+>>> os.path.relpath('C:\\Windows', 'C:\\')
+>>> os.path.relpath('C:\\Windows', 'C:\\spam\\huevos')
+>>> os.getcwd()
+
+os.path.dirname(dirección) devuelve una cadena con todo lo que esté antes de la última barra de la dirección.
+os.path.basename(dirección) devuelve una cadena con todo lo que esté después de la ultima barra de la dirección, es decir por lo general el nombre del archivo.
+
+>>> path = 'C:\\Windows\\System32\\calc.exe'
+>>> os.path.basename(path)
+>>> os.path.dirname(path)
+
+Si necesitan el dirname y el basename al mismo tiempo,se puede utilizar os.path.split()
+
+>>> calcFilePath = 'C:\\Windows\\System32\\calc.exe'
+>>> os.path.split(calcFilePath)
+>>> (os.path.dirname(calcFilePath), os.path.basename(calcFilePath))
+>>> calcFilePath.split(os.path.sep)
+
+
+Creando carpetas con os.makedirs()
+Nuestros programas pueden crear carpetas utilizando la función os.makedirs().
+
+>>> import os
+>>> os.makedirs('C:\\deliciosos\\waffles\\belgas')
+La función os.makedirs() creará todas las carpetas necesariás entre el directorio raíz C: y la carpeta belgas.
+
+Averiguando tamaños de archivo y contenidos de carpeta:
+os.path.getsize(((dirección) devuelve el tamaño en bytes del archivo en esa dirección.
+os.listdir(dirección) devuelve una lista de cadenas con los nombres de cada archivos en esa dirección.
+
+>>> os.path.getsize('C:\\Windows\\System32\\calc.exe')
+>>> os.listdir('C:\\deliciosos\\waffles')
+>>> totalSize = 0
+>>> for filename in os.listdir('C:\\Windows\\System32'):
+totalSize = totalSize + os.path.getsize(os.path.join('C:\\Windows\\System32', filename))
+>>> print(totalSize)
+
+Validación de direcciones:
+Es muy fácil que una función de Python detenga el programa si recibe una dirección errónea. Para evitar esos errores existen las siguientes funciones.
+
+os.path.exists(dirección) devuelve un booleano True o False dependiendo de si la dirección o archivo existen.
+os.path.isfile(dirección) devuelve un booleano True o False dependiendo de si la dirección apunta a un archivo o no.
+os.path.isdir(dirección) devuelve un booleano True o False dependiendo de si la dirección apunta a una carpeta.
+
+>>> os.path.exists('C:\\Windows')
+>>> os.path.exists('C:\\una_carpeta_cualquiera')
+>>> os.path.isdir('C:\\Windows\\System32')
+>>> os.path.isfile('C:\\Windows\\System32')
+>>> os.path.isdir('C:\\Windows\\System32\\calc.exe')
+>>> os.path.isfile('C:\\Windows\\System32\\calc.exe')
+>>> os.path.exists('D:\\')
+
+
+
+Open, Read or Write and Close:
+El Proceso de Escribir y Leer Archivos: Hay 3 pasos a seguir para leer o escribir archivos en Python:
+1.Llamar a la función open() para conseguir un objeto File.
+2.Llamar a los métodos read() o write() en ese objeto.
+3.Cerrar el archivo utilizando el método close() en el objeto File.
+
+Abriendo Archivos con la Función open():
+Para abrir un archivo con la función open() hay que pasarle una cadena indicando la dirección del archivo a abrir. Esa dirección puede ser absoluta (siempre comienza con el directorio raíz) o relativa (es decir, se lee en relación al directorio de trabajo actual). Ej:
+
+>>> holaFile = open('C:\\Usuarios\\Andrea\\hola.txt')
+
+Este comando abre el archivo en modo de lectura. Cuando abrimos un archivo en este modo, Python permite leer datos del mismo, pero no puede ser escrito o modificado. Este es el modo que se utiliza por defecto o al pasarle como segundo argumento ‘r’. La función open() devuelve un objeto File. Este objeto representa el archivo en la computadora, y se comporta como cualquier otro tipo de valor en Python. Es decir,podemos pasarlo como argumento a otras funciones o usar métodos con el mismo.
+
+Leyendo los contenidos de un archivo   READ():
+Para leer un archivo se utiliza el método read() que devuelve en un valor cadena todo el contenido del mismo.
+
+>>> holaContenido= holaFile.read()
+>>> holaContenido
+
+Sino se puede utilizar el método readlines() para conseguír una lista con cadenas del archivo.
+
+>>> sonetoFile = open('soneto29.txt')
+>>> sonetoFile.readlines()
+
+Escribiendo Archivos write  : 
+Escribir archivos es parecido a utilizar la función print() para imprimir cadenas por pantalla, solo que esta vez las “imprimiremos” en un archivo. Pero no podemos escribir en un archivo abierto en modo lectura, hay que abrirlo en modo escritura o modo agregado (write plaintext mode o append plaintext mode).El modo escritura sobrescribirá por completo los contenidos de un archivo existente, y se accede a él pasándole el argumento ‘w’ a open(). 
+El modo agregado por otro lado, agrega texto al final del archivo que abrimos, y se accede utilizando el argumento ‘a’
+
+Si el archivo no existe, ambos modos, escritura y agregado, crearan un uno nuevo con ese nombre.
+ Luego de leer o escribir un archivo hay que llamar al método close() antes de poder abrir el archivo nuevamente.
+
+>>> cerdoFile = open('cerdo.txt', 'w')
+>>> cerdoFile.write('Hola Mundo!\n')
+>>> cerdoFile.close()
+>>> cerdoFile = open('cerdo.txt', 'a')
+>>> cerdoFile.write('El cerdo no es una verdura.')
+>>> cerdoFile.close()
+>>> cerdoFile = open('cerdo.txt')
+>>> contenido = cerdoFile.read()
+>>> cerdoFile.close()
+>>> print(contenido)
+
+Guardando Variables con el Módulo Shelve:
+Para guardar variables en un archivo. Este módulo nos permite guardar y/o abrir la configuración de nuestro programa.
+El modulo Shelve genera archivos binarios
+
+>>> import shelve
+>>> shelfFile = shelve.open('misdatos')
+>>> gatos = ['Sofia', 'Pooka', 'Simon']
+>>> shelfFile['gatos'] = gatos
+>>> shelfFile.close()
+
+Nuestros programas pueden abrir y recuperar estos datos desde estos archivos. A diferencia de archivos regulares, los archivos shelf automáticamente se abren en modo lectura y escritura al mismo tiempo
+
+>>> shelfFile = shelve.open('misdatos')
+>>> type(shelfFile)
+>>> shelfFile['gatos']
+>>> shelfFile.close()
+
+Estos objetos shelf funcionan parecido a los diccionarios, con claves, valores y pares clave-valor.
+
+>>> shelfFile = shelve.open('misdatos')
+>>> list(shelfFile.keys())
+>>> list(shelfFile.values())
+>>> shelfFile.close()
+
+
+Guardando variables con la función pprint.pformat():
+La función pprint.pformat() que ya vimos anteriormente también sirve para generar archivos .py con facilidad, ya que la cadena que genera respeta las reglas de sintaxis de Python, y que luego podremos utilizar para crear nuestros propios módulos de Python.
+
+>>> import pprint
+>>> gatos = [{'nombre': 'Sofia', 'desc': 'gordito'}, {'name': 'Pooka', 'desc': 'peludo'}]
+>>> pprint.pformat(gatos)
+>>> fileObj = open('misGatos.py', 'w')
+>>> fileObj.write('gatos = ' + pprint.pformat(gatos) + '\n')
+>>> fileObj.close()
+>>> import misGatos
+>>> misGatos.gatos
+>>> misGatos.gatos[0]
+>>> misGatos.gatos[0]['nombre']
+
+
+La ventaja de utilizar un archivo .py para nuestras variables es que puede leerse como un archivo de texto a diferencia de los archivos binarios que genera el módulo shelve. Aunque esto solo funciona para datos simples como cadenas, enteros, listas y diccionarios y no para objetos.
+
+Organización de Archivos:
+
+El modulo shutil:
+Este módulo tiene funciones que nos permiten copiar, mover, renombrar, y eliminar archivos con nuestros programas de Python. 
+Copiando Archivos y Carpetas
+Llamando a la función shutil.copy (origen, destino) se copiará el archivo en el origen a la dirección destino que designemos en el argumento. Si el destino tiene un nombre de archivo este se usará para el nombre del nuevo archivo.
+ Esta función también retorna una cadena con la dirección del archivo  creado.
+
+>>> import shutil, os
+ >>> from pathlib import Path 
+>>> d = Path.home()
+ >>> shutil.copy(d / 'spam.txt', d / 'copia_spam') 
+>>> shutil.copy(d / 'huevos.txt', d / 'una_carpeta/huevos2.txt')
+
+Por  otro  lado,  con  shutil.copytree()  podemos  copiar  todo  el  contenido  de  una  carpeta, incluyendo   las  subcarpetas   que   se   encuentren   dentro.   Llamamos   shutil.copytree (origen, destino) de la misma manera que a shutil.copy(), definiendo un directorio origen y un directorio de destino para los archivos que se crearan
+
+>>> import shutil, os 
+>>> from pathlib import Path
+ >>> d = Path.home() 
+>>> shutil.copytree(d / 'spam', d / 'spam_backup')
+
+Moviendo y Renombrando  Carpetas y Archivos:
+Llamando a la función shutil.move (origen, destino) podemos mover un archivo o carpeta a otra dirección del disco. Si el destino apunta a una carpeta el archivo retendrá su nombre original.
+
+>>> import shutil 
+>>> shutil.move('H:\\cerdo.txt', 'H:\\huevos\\nuevo_cerdo.txt')
+>>> shutil.move('H:\\cerdo.txt', 'H:\\huevos')
+
+En el caso de que la carpeta destino no exista, cuando se copie un archivose le cambiará el nombre al de esa carpeta inexistente. Por este motivo hay que ser cuidadosos al utilizar la función move().
+
+
+Borrando archivos y carpetas de manera Permanente:
+Para borrar archivos y carpetas tenemos las siguientes funciones a nuestra disposición:
+*Llamando a os.unlink(dirección) se borrara el archivo en esa dirección
+*Llamando a os.rmdir(dirección) se borrará la carpeta en esa dirección. La carpeta debe estar vacía.
+*Llamando a shutil.rmtree(dirección)se borrará la carpeta y todos los archivos y carpetas que contenga.
+
+Cuando  trabajamos  con  alguna  de  estas  funciones  siempre  conviene  primero  comentarlas mientras estamos probando el programa. De esa manera podemos prevenir eliminar archivos importantes por error. 
+Por ejemplo en el siguiente programa se quiere borrar todos los archivos con extensión .txt pero hay un error de tipeo y borrará los archivos .rxt en su lugar.
+
+import os
+ from pathlib import Path 
+for filename in Path.home().glob('*.rxt'): 
+os.unlink(filename)
+
+Es decir si hubiéramos tenido archivos importantes del tipo .rxt los habríamos eliminado por error. Para evitar esto prueben sus programas con esas funciones comentadas primero e imprimiendo el nombre del archivo que intentaban eliminar. De esta manera:
+
+import os 
+from pathlib import Path
+ for filename in Path.home().glob('*.rxt'): 
+#os.unlink(filename) 
+print(filename)
+
+
+Recorriendo un directorio:
+Supongamos queremos  renombrar  todos los archivos y subcarpetas  en una  carpeta. Es decir,queremos recorrer un directorio, modificando cada uno de los elementos. Existe una función en Python para estos casos, os.walk().
+import os
+for folderName, subfolders, filenames in os.walk('H:\\deliciosos'):
+print('CARPETA ACTUAL ' + folderName)
+for subfolder in subfolders:
+print('SUBCARPETAS DE ' + folderName + ': ' + subfolder)
+for filename in filenames:
+print('ARCHIVOS DENTRO ' + folderName + ': '+ filename)
+print('')
+
+La función os.walk() recibe una cadena con la dirección del directorio que queramos recorrer, y devolverá una serie de elementos con 3 valores:
+*Una cadena con el nombre de la carpeta que se está recorriendo.
+*Una cadena con las subcarpetas.
+*Un cadena con los archivos en la carpeta
+
+Comprimiendo archivos con el Módulo zipfile:
+Comprimir archivos reduce su tamaño y hace que sea más fácil transferirlos a través de internet. Los archivos ZIP son carpetas que contienen estos archivos y/o carpetas comprimidas.
+Para poder crear y abrir (o extraer)  archivos ZIP con  Python necesitamos importar primero el módulo zipfile.
+
+Leyendo archivos ZIP:
+Para leer un archivo ZIP primero hay que crear un objeto ZipFile. Esto objetos son similares a los objetos File con los que venimos trabajando y creando utilizando la función open(). Para crear un objeto ZipFile hay que llamar a la función zipfile.ZipFile() pasándole como argumento una cadena con la dirección del archivo .ZIP que queremos abrir.
+
+>>> import zipfile, os
+ >>> from pathlib import Path 
+>>> d = Path.home() 
+>>> ejemploZip = zipfile.ZipFile(d / 'ejemplo.zip') 
+>>> ejemploZip.namelist()
+>>> spamInfo = ejemploZip.getinfo('ejemplo.mp4') 
+>>> spamInfo.file_size
+>>> spamInfo.compress_size 
+>>> ejemploZip.close()
+
+Los objetos ZipFile tienen un método llamado namelist()que devuelve una lista de cadenas con todos los archivos y carpetas dentro del archivo. 
+Estas cadenas se las podemos pasar a otro método llamado getinfo() para obtener un objeto ZipInfode ese archivo en particular. 
+Los objetos ZipInfo tienen un par de atributos con los que podemos conseguir su tamaño original y su tamaño comprimido, que son:
+file_sizey compress_size.
+Un objeto ZipFile representa al archivo ZIP en su totalidad mientras que un ZipInfo solo contiene información sobre uno de los archivos dentro.
+
+Leyendo archivos ZIP:
+Para leer un archivo ZIP primero hay que crear un objeto ZipFile. Esto objetos son similares a los objetos File con los que venimos trabajando y creando utilizando la función open(). Para crear un objeto ZipFile hay que llamar a la función zipfile.ZipFile() pasándole como argumento una cadena con la dirección del archivo .ZIP que queremos abrir.
+
+Los objetos ZipFile tienen un método llamado namelist() que devuelve una lista de cadenas con todos los archivos y carpetas dentro del archivo. Estas cadenas se las podemos pasar a otro método llamado getinfo()para obtener un objeto ZipInfode ese archivo en particular. 
+Los objetos ZipInfo tienen un par de atributos con los que podemos conseguir su tamaño original y su tamaño comprimido, que son file_sizey compress_size.
+Un objeto ZipFile representa al archivo ZIP en su totalidad mientras que un ZipInfo solo contiene información sobre uno de los archivos dentro.
+
+Extrayendo archivos de un archivo ZIP:
+El método extractall() de los objetos ZipFile extrae todos los archivos y carpetas de un archivo ZIP dentro del CWD
+
+>>> import zipfile, os 
+>>> from pathlib import Path 
+>>> d = Path.home() 
+>>> ejemploZip = zipfile.ZipFile(d / 'ejemplo.zip') 
+>>> ejemploZip.extractall() 
+>>> ejemploZip.close()
+
+También se le puede pasar una dirección a extractall() para descomprimir los archivos en otra ubicación. Si esta carpeta no existe, se creará.
+El otro método se llama extract() y extraerá un solo archivo del archivo ZIP.
+
+>>> ejemploZip.extract('ejemplo.mp4') 
+>>> ejemploZip.extract('ejemplo.mp4', 'H:\\deliciosos\\waffles\\belgas') 
+>>> ejemploZip.close()
+
+Creando y añadiendo a archivos ZIP:
+Para crear nuestro propio archivo ZIP, primero hay que abrir un objeto ZipFile en modo escritura, pasándole el argumento ‘w’. (similar a los modos de la función open())
+Cuando le pasamos una dirección al método write() de un objeto ZipFile, Python comprimirá el archivo en esa dirección y lo agregará al archivo ZIP.
+ El primer argumento del método write() es una cadena con el nombre del archivo a agregar.
+El segundo argumento es el tipo de compresión a  utilizar,  es  decir  que  algoritmo  de  compresión  utilizará  la  computadora  para  comprimir  el archivo. 
+zipfile.ZIP_DEFLATED, funciona para la mayoría de tipos de archivos.
+
+>>> import zipfile 
+>>> nuevoZip = zipfile.ZipFile('new.zip', 'w') 
+>>> nuevoZip.write('spam.txt', compress_type=zipfile.ZIP_DEFLATED) 
+>>> nuevoZip.close()
+
+Al igual que con el modo de escritura ‘w’ de open(), en este caso también se sobrescribirá el contenido del archivo ZIP. Si queremos agregar archivos tendremos que utilizar el modo agregar o append con el argumento ‘a’.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
